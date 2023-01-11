@@ -1,0 +1,26 @@
+.input_label_name{
+    display: block;
+}
+.input_p{
+
+    display: block;
+    margin:  1.5rem auto;
+    width: 100%;
+
+   
+}
+.input_input{
+    font-size: 1.1rem;
+    padding: 0.4rem;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input_label_name{
+    font-size: 1.3rem;
+}
+.input_label{
+    opacity: 0;
+}

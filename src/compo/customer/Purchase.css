@@ -1,0 +1,31 @@
+.Purchase-p select{
+width: 100%;
+display: block;
+box-sizing: border-box;
+padding: 0.2rem;
+font-size: 1.1rem;
+}
+.Purchase-p input{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+    }
+
+    .Purchase-form{
+        grid-area: 1 / 1 / 2 / 2;
+
+
+    }
+
+  .Purchase{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 80vw;
+  }
+.Purchase-summery{
+    grid-area: 1 / 2 / 2 / 3; 
+}

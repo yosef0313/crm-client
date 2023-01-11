@@ -1,0 +1,29 @@
+.CommentsChet{
+    width: 80%;
+    margin: auto;
+
+}
+.CommentsChet_comment{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.CommentsChet_comment-user{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.CommentsChet_comment-text{
+    grid-area: 1 / 2 / 2 / 7;
+    background-color: lightgray;
+    border-radius: 5px;
+
+}
+.CommentsChet{
+    height: 20rem;
+    overflow: auto;
+}
+.CommentsChet_input{
+    width: 80%;
+    margin: auto;
+}

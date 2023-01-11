@@ -1,0 +1,33 @@
+.CreatCustomerDetails-div{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+
+}
+
+.CreatCustomerDetails-h3{
+    display: inline-block;
+}
+
+.CreatCustomerDetails-label{
+float: left;
+font-size: 2.5rem;
+}
+.CreatCustomerDetails-form{
+    width: 70vw;
+}
+.CreatCustomerDetails-chackLabel{
+    display: block;
+}
+.CreatCustomerDetails-option{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+.CreatCustomerDetails-button{
+    width: 30%;
+}
